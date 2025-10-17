@@ -28,7 +28,7 @@ Pure API plugin — no NMS or reflection.
 ---
 
 ## Installation
-1. Download or build the JAR file.  
+1. Download or build the JAR file. [Here](https://github.com/Telle-dev/Anti-Item-Explosions/releases/tag/v1.0.1)
 2. Place it in your server’s `plugins/` folder.  
 3. Start the server once to generate the configuration file.  
 4. Edit `plugins/AntiItemExplosions/config.yml` as needed.  
