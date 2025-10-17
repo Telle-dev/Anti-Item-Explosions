@@ -1,0 +1,16 @@
+main: de.tellegram.antiexpl.AntiItemExplosions
+name: Anti-Item-Explosions
+version: 1.0.1
+api-version: "1.21"
+load: POSTWORLD
+author: Tellegram
+
+commands:
+  antiexpl:
+    description: Anti-Item-Explosions admin command
+    usage: /antiexpl reload
+
+permissions:
+  antiexpl.reload:
+    description: Reload plugin configuration
+    default: op

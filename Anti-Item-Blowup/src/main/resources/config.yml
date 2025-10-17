@@ -1,0 +1,21 @@
+# Anti-Item-Explosions by Tellegram v1.0.1
+# Support: https://discord.gg/DCUQJuDbhB
+enabled-worlds:
+  - world
+  - world_nether
+protect:
+  explosions: true
+  fire_lava: true
+ItemDestruction:
+  # Placed blocks listed here are NOT destroyed by explosions (block protection).
+  # Leave empty if you want placed blocks to explode as normal.
+  BLOCKS:
+    - YOUR_BLOCK_HERE
+    - YOUR_OTHER_BLOCK_HERE
+
+  # These dropped items survive explosions and do NOT burn in fire/lava.
+  # Blocks can still be destroyed when placed; only their dropped items are protected.
+  ITEMS:
+    - DIAMOND
+    - NETHERITE_SWORD
+    - YOUR_ITEM_HERE
